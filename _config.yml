@@ -1,0 +1,11 @@
+# Some configuration settings cannot be changed for GitHub Pages sites.
+lsi: false
+safe: true
+source: dvranic-code.github.io
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
