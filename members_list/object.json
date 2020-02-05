@@ -1,0 +1,122 @@
+{
+  "groupPhoto": "",
+  "companyLogo": "",
+  "companyTitle": "TRES STELLAS",
+  "companySubTitle": "Partnership・Passion・Professionalism",
+  "title": "Members List",
+  "featureImage": "",
+  "introText": "Member of the NE region in Tokyo, we are based in Asakusabashi, a station just by the famed Akihabara shopping distric. We are comprised of 80+ members of all ages and profession groups embodying the professional fabric of Japan. Our members range from restaurants and coworking spaces in the area to legal, beauty, business support services, et all. We have several nationalities with us, and a vibrant Global Business Coordinator Team. Some of our members are shy, but we all love to interact with people from around the world! Give us a hi! and we will forget that we were shy.",
+  "features": [
+    {
+      "title": "PARTNERSHIP",
+      "text": "We believe in the human emotion that binds us together. Partnership of the heart is as important as the partnership of the business."
+    },
+    {
+      "title": "PASSION",
+      "text": "We believe in the power of doing what we love. Passion is the fruit that gets us going. With our passion, we can turn the world around."
+    },
+    {
+      "title": "PROFESSIONALISM",
+      "text": "Each with his own history, the one thing we cannot forego is the professionalism required in work. We are professionals."
+    }
+  ],
+  "members": [
+    {
+      "picture": "",
+      "name": "Kazuo Ishikaw",
+      "position": "Administrative scrivener",
+      "extraInfo": "(Construction industry & Housing business)",
+      "strengths": "I have more than 10 years experience. I will respond promptly to the application for permission.",
+      "refForMe": "Opening of construction industry",
+      "refICanProvide": "I can introduce construction companies.",
+      "location": "Bayside Administrative Scrivener Office",
+      "phoneNumber": "+81-3-6319-4852",
+      "email": "ishikawa@bayside-office.com"
+    },
+    {
+      "picture": "",
+      "name": "MINPEI ONO",
+      "position": "Certified Human Resources Management Consultant",
+      "extraInfo": "",
+      "strengths": "Taking advantage of 30years of business experience ,we work as a excellent consultant on labor issue.",
+      "refForMe": "Business Owner",
+      "refICanProvide": "Management, lawyers, tax-accountants",
+      "location": "",
+      "phoneNumber": "",
+      "email": ""
+    },
+    {
+      "picture": "",
+      "name": "Kazuo Ishikaw",
+      "position": "Administrative scrivener",
+      "extraInfo": "(Construction industry & Housing business)",
+      "strengths": "I have more than 10 years experience. I will respond promptly to the application for permission.",
+      "refForMe": "Opening of construction industry",
+      "refICanProvide": "I can introduce construction companies.",
+      "location": "",
+      "phoneNumber": "",
+      "email": ""
+    },
+    {
+      "picture": "",
+      "name": "Kazuo Ishikaw",
+      "position": "Administrative scrivener",
+      "extraInfo": "(Construction industry & Housing business)",
+      "strengths": "I have more than 10 years experience. I will respond promptly to the application for permission.",
+      "refForMe": "Opening of construction industry",
+      "refICanProvide": "I can introduce construction companies.",
+      "location": "",
+      "phoneNumber": "",
+      "email": ""
+    },
+    {
+      "picture": "",
+      "name": "Kazuo Ishikaw",
+      "position": "Administrative scrivener",
+      "extraInfo": "(Construction industry & Housing business)",
+      "strengths": "I have more than 10 years experience. I will respond promptly to the application for permission.",
+      "refForMe": "Opening of construction industry",
+      "refICanProvide": "I can introduce construction companies.",
+      "location": "",
+      "phoneNumber": "",
+      "email": ""
+    },
+    {
+      "picture": "",
+      "name": "Kazuo Ishikaw",
+      "position": "Administrative scrivener",
+      "extraInfo": "(Construction industry & Housing business)",
+      "strengths": "I have more than 10 years experience. I will respond promptly to the application for permission.",
+      "refForMe": "Opening of construction industry",
+      "refICanProvide": "I can introduce construction companies.",
+      "location": "",
+      "phoneNumber": "",
+      "email": ""
+    },
+    {
+      "picture": "",
+      "name": "Kazuo Ishikaw",
+      "position": "Administrative scrivener",
+      "extraInfo": "(Construction industry & Housing business)",
+      "strengths": "I have more than 10 years experience. I will respond promptly to the application for permission.",
+      "refForMe": "Opening of construction industry",
+      "refICanProvide": "I can introduce construction companies.",
+      "location": "",
+      "phoneNumber": "",
+      "email": ""
+    },
+    {
+      "picture": "",
+      "name": "Kazuo Ishikaw",
+      "position": "Administrative scrivener",
+      "extraInfo": "(Construction industry & Housing business)",
+      "strengths": "I have more than 10 years experience. I will respond promptly to the application for permission.",
+      "refForMe": "Opening of construction industry",
+      "refICanProvide": "I can introduce construction companies.",
+      "location": "",
+      "phoneNumber": "",
+      "email": ""
+    }
+
+  ]
+}

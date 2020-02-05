@@ -1,0 +1,233 @@
+//Colors
+
+$background: #eaeaea;
+$primary: #ffe40a;
+$lightBlue: #D0DDEA;
+$darkBlue: #4E6A8E;
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|PT+Serif:400,700,700i&display=swap');
+
+
+/* GENERAL */
+html {
+  font-size: 12px;
+
+}
+body.member-list {
+  background: $background;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  position: fixed;
+  top: 60px;
+  right: 0;
+  transform: translateX(calc(100% - 54px));
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  float: left;
+  transition: all ease .3s;
+  padding: 6px;
+  padding-left: 58px;
+  background:rgba($color: #000000, $alpha: .3);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+  border-radius: 24px 0 0 24px;
+
+
+
+  &.show {
+    transform: translateX(0);
+  }
+
+  .icon,
+  .dvc-btn {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+    background: $primary;
+    display: block;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .icon {
+    position: absolute;
+    height: 42px;
+    width: 42px;
+    left: 6px;
+    border-radius: 50%;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3C!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='31.388px' height='31.388px' viewBox='0 0 31.388 31.388' style='enable-background:new 0 0 31.388 31.388;' xml:space='preserve'%3E%3Cg%3E%3Cg%3E%3Cpath d='M8.401,19.99l-1.215,6.398h17.017l-1.215-6.398H8.401z M8.393,25.388l0.835-4.398h12.93l0.836,4.398H8.393z'/%3E%3Cpath d='M8.401,6.939h14.587v1.503h1.822V7.43C24.811,6.094,23.717,5,22.38,5H9.008C7.671,5,6.577,6.094,6.577,7.43v1.012H8.4 L8.401,6.939L8.401,6.939z'/%3E%3Cpath d='M28.457,9.158H2.931C1.315,9.158,0,10.472,0,12.089v7.294C0,21,1.315,22.314,2.931,22.314h3.155l0.868-3.039h17.48 l0.868,3.039h3.155c1.615,0,2.931-1.313,2.931-2.931v-7.294C31.388,10.472,30.072,9.158,28.457,9.158z M30.388,19.382 c0,1.064-0.866,1.932-1.931,1.932h-2.401l-0.868-3.039H6.2l-0.868,3.039H2.931C1.866,21.314,1,20.447,1,19.382v-7.294 c0-1.064,0.866-1.931,1.931-1.931h25.526c1.064,0,1.931,0.866,1.931,1.931V19.382z'/%3E%3Ccircle cx='25.053' cy='12.57' r='0.912'/%3E%3Ccircle cx='27.686' cy='12.57' r='0.708'/%3E%3Cpath d='M21.193,23.732h-11c-0.276,0-0.5,0.225-0.5,0.5c0,0.276,0.224,0.5,0.5,0.5h11c0.276,0,0.5-0.224,0.5-0.5 C21.693,23.957,21.47,23.732,21.193,23.732z'/%3E%3Cpath d='M21.193,21.888h-11c-0.276,0-0.5,0.225-0.5,0.5s0.224,0.5,0.5,0.5h11c0.276,0,0.5-0.225,0.5-0.5 S21.47,21.888,21.193,21.888z'/%3E%3C/g%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: center center;
+    &.active {
+      background-color: $lightBlue;
+    }
+  }
+
+  .dvc-btn {
+    height: 42px;
+    padding: 0 1.5rem;
+    line-height: 42px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 21px;
+    &:first-child {
+      margin-bottom: 6px;
+    }
+    &.active {
+      color: $darkBlue;
+      background: $lightBlue;
+    }
+  }
+
+
+}
+
+.page {
+  background: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+  overflow: hidden;
+  width: calc(92vw - 90px);
+  max-width: 703px;
+  // height: 1033px;
+  height: auto;
+  margin: 1rem auto;
+  padding: 55px 45px;
+  box-sizing: content-box;
+}
+
+.inner-page {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='793.004' height='186.055' viewBox='0 0 793.004 186.055'%3E%3Cg id='Group_5' data-name='Group 5' transform='translate(-86.996 -188.923)'%3E%3Cpath id='Path_14' data-name='Path 14' d='M2259.252-1488.916s171.628-55.731,369.877-89.5,423.122-45.574,423.122-45.574-209.243-43.079-407.492-49.871-385.507,22.7-385.507,22.7Z' transform='translate(-2172.251 1863.894)' fill='%23b58f91'/%3E%3Cpath id='Path_15' data-name='Path 15' d='M2260.249-1652.957l0,128.005s158.244-50.528,355.587-75.225,436.97-25.534,436.97-25.534-218.4-43.625-415.744-49.933S2260.249-1652.957,2260.249-1652.957Z' transform='translate(-2173.252 1865.465)' fill='%23694849'/%3E%3C/g%3E%3C/svg%3E%0A");
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: left 2rem;
+}
+
+h1, h2, h3 {
+  font-family: 'PT Serif', serif;
+  margin: 0;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-bottom: 3rem;
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+p {
+  margin: 0;
+}
+
+.page-title {
+  color: $lightBlue;
+  filter: drop-shadow(1px 2px 1px rgba($darkBlue, 0.6));
+}
+
+.members {
+  width: calc(100% + 28px);
+  margin-left: -14px;
+}
+
+.member-card {
+  padding: 14px;
+  width: 100%;
+  height: 472px;
+  overflow: hidden;
+  float: left;
+  position: relative;
+}
+
+.member-image {
+  width: 100%;
+  margin: 0 auto 0.75rem;
+  height: 150px;
+  // padding-top: 70%;
+  background-image: url('../img/member.jpeg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.member-header {
+  position: relative;
+  padding-left: 14px;
+  color: $darkBlue;
+  margin-bottom: 0.75rem;
+
+  .name {
+    text-transform: uppercase;
+  }
+
+  .title {
+    margin: 0;
+    font-size: 11px;
+  }
+
+  &:before {
+    position: absolute;
+    left: 0;
+    top: 3px;
+    content: '';
+    width: 14px;
+    height: 32px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14.649' height='52' viewBox='0 0 14.649 52'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: %234e6a8e; %7D %3C/style%3E%3C/defs%3E%3Cpath id='Path_16' data-name='Path 16' class='cls-1' d='M0,0H8l6.649,25.723L8,52H0Z'/%3E%3C/svg%3E%0A");
+    background-size: contain;
+    background-position: left top;
+    background-repeat: no-repeat;
+  }
+}
+
+.member-description {
+  margin-bottom: 0.5rem;
+
+  p {
+    font-size: 11px;
+    line-height: 1.25;
+  }
+}
+
+.member-info {
+  position: absolute;
+  width: calc(100% - 28px);
+  left: 14px;
+  right: 14px;
+  bottom: 14px;
+
+  ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    li {
+      position: relative;
+      padding-left: 18px;
+      line-height: 1.5;
+
+      &:before {
+        content: '';
+        height: 11px;
+        width: 11px;
+        background: $darkBlue;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}
+
+@import "small";
+@import "medium";
+@import "print";
