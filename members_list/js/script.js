@@ -4,7 +4,7 @@
 var menuContainer = document.getElementById('menu-container');
 
 document.querySelector('.icon').addEventListener('click', slidePrintMenu);
-document.querySelector('.icon').addEventListener('touchstart', slidePrintMenu);
+// document.querySelector('.icon').addEventListener('touchstart', slidePrintMenu);
 
 function slidePrintMenu() {
   menuContainer.classList.toggle('show');
@@ -18,7 +18,7 @@ function slidePrintMenu() {
  */
 
 document.querySelector('.btn-print').addEventListener('click', printStyle);
-document.querySelector('.btn-print').addEventListener('touchstart', printStyle);
+// document.querySelector('.btn-print').addEventListener('touchstart', printStyle);
 
 function printStyle() {
   document.body.classList.toggle('print');
