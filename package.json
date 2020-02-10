@@ -1,0 +1,35 @@
+{
+  "name": "dvranic-code.github.io",
+  "version": "1.0.0",
+  "description": "My personal site and project test/showroom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvranic-code/dvranic-code.github.io.git"
+  },
+  "keywords": [
+    "web",
+    "developer"
+  ],
+  "author": "Dejan Rudic Vranic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dvranic-code/dvranic-code.github.io/issues"
+  },
+  "homepage": "https://github.com/dvranic-code/dvranic-code.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "run-sequence": "^2.2.1"
+  }
+}

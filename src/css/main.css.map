@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.css"],"names":[],"mappings":"AAAA,KAAK,iBAAiB,CAAC,IAAI,kBAAkB,yDAAyD,yBAAyB,CAAC","file":"main.css","sourcesContent":["body{background:purple}div{border-radius:50%;background-image:linear-gradient(to bottom #444 #121212);box-shadow:0 4px 6px #ccc}\n/*# sourceMappingURL=main.css.map */\n"]}
